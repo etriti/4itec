@@ -1,0 +1,33 @@
+/* indicateurs du caroussel */
+
+/* sortir du cadre du slide vers le bas de 50px */
+.carousel-indicators {
+	  bottom:-50px;
+}
+
+/* laisser une marge de 50px vers le bas */
+.carousel-inner {
+   margin-bottom:50px;
+}
+
+/* bordure et couleur */
+.carousel-indicators li {
+		border: 1px solid #57A6CE !important;
+    background-color: rgba(128, 128, 128, 0.1) ;
+}
+
+.carousel-indicators .active {
+	background-color: #57A6CE;
+	border: 1px solid #57A6CE !important;
+
+}
+
+/* propriétés */
+ol.carousel-indicators li,
+ol.carousel-indicators li.active {
+  width: 7vh;
+  height: 6px;
+  margin: 0;
+  border-radius: 10;
+  border: 0;
+}
